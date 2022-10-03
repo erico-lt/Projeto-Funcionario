@@ -7,7 +7,7 @@ public final class OutsourcedEmploy extends Employ{
         super(name,hours,valuePerHours);  
         this.setAdicionalCharge(adicional);      
     }
-
+    @Override
     public double payment(){
         return super.payment() + (110 * this.getAdicionalCharge() / 100); 
     }

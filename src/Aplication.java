@@ -8,7 +8,7 @@ public class Aplication {
         List<Employ> employs = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
-        System.out.print("How many employs contract: ");
+        System.out.print("Enter quantity employees: ");
         int quantityEmplo = sc.nextInt();      
         
         for(int cont = 0; cont < quantityEmplo; cont ++){            

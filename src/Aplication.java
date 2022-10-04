@@ -11,8 +11,8 @@ public class Aplication {
         System.out.print("Enter quantity employees: ");
         int quantityEmplo = sc.nextInt();      
         
-        for(int cont = 0; cont < quantityEmplo; cont ++){            
-            System.out.println("Employ #" + (cont + 1) + " dice");
+        for(int cont = 1; cont <= quantityEmplo; cont ++){            
+            System.out.println("Employ #" + cont + " dice");
 
             System.out.print("Outsourced [y/n]?");
             String resp = sc.next();
